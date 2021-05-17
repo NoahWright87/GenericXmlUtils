@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericXmlUtils", "GenericXmlUtils\GenericXmlUtils.csproj", "{738041FF-FE91-4C69-8DC3-E5DA454F8A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericXmlUtils", "GenericXmlUtils\GenericXmlUtils.csproj", "{738041FF-FE91-4C69-8DC3-E5DA454F8A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{B77BC6C8-7344-4A2D-B152-222EA743E3F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{B77BC6C8-7344-4A2D-B152-222EA743E3F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{738041FF-FE91-4C69-8DC3-E5DA454F8A06} = {738041FF-FE91-4C69-8DC3-E5DA454F8A06}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
